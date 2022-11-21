@@ -56,7 +56,7 @@ export default function Textform(props) {
         <button
           className={`btn btn-${
             props.darkColor === "grey" ? "primary" : "secondary"
-          } mx-2`}
+          } mx-2 my-2`}
           onClick={handleUpClick}
         >
           Convert to Uppercase
@@ -72,7 +72,7 @@ export default function Textform(props) {
         <button
           className={`btn btn-${
             props.darkColor === "grey" ? "primary" : "secondary"
-          } mx-2`}
+          } mx-2 my-2`}
           onClick={handleNsClick}
         >
           No spaces
